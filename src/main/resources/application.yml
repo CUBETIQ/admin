@@ -1,0 +1,5 @@
+server:
+    port: 7658
+spring:
+    profiles:
+        active: dev

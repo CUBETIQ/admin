@@ -24,6 +24,7 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("de.codecentric:spring-boot-admin-starter-client")
 	implementation("de.codecentric:spring-boot-admin-starter-server")
+	implementation("de.codecentric:spring-boot-admin-server-ui")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")

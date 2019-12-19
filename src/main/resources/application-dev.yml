@@ -1,0 +1,20 @@
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+    endpoint:
+        health:
+            show-components: always
+            show-details: always
+spring:
+    boot:
+        admin:
+            client:
+                enabled: true
+                url: http://localhost:7658
+    data:
+        mongodb:
+            uri: mongodb://192.168.0.150/admin
+    application:
+        name: admin

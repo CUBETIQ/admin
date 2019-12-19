@@ -1,0 +1,1 @@
+bash gradlew build -x test && docker build . -t cubetiq/admin-server:dev && docker stop admin-server && docker rm -v admin-server && docker run -d -p 7658:7658 --name admin-server --restart always cubetiq/admin-server:dev
