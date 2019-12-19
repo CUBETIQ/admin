@@ -10,6 +10,8 @@ management:
 spring:
     boot:
         admin:
+            ui:
+                title: CUBETIQ Application Server
             client:
                 enabled: true
                 url: http://localhost:7658
